@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 import os
-ALLOWED_HOSTS = ['inventorysystem.onrender.com']
+ALLOWED_HOSTS = ['inventory-web-system.onrender.com', 'localhost', '127.0.0.1']
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -25,9 +25,6 @@ SECRET_KEY = 'django-insecure-1%^vp)1%0bvewbb&v3=*q6)+k=v)8bw_uc3p-#7&p6s^m$u-tu
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = []
-
 
 # Application definition
 
