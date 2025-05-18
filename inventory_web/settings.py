@@ -12,7 +12,8 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 import os
-ALLOWED_HOSTS = ['inventory-web-system.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['inventory-web-system.onrender.com', 'localhost', '127.0.0.1', 'www.inventory-web-system.com',
+    'inventory-web-system.com',]
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
