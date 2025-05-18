@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: inventory-web
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn inventory_web.wsgi:application
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: inventory_web.settings
